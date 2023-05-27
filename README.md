@@ -14,3 +14,6 @@ Singleton class for Tile and GridManager to access whenever needed. There is a r
 parameter. Adds that tile to foundTiles list and checks all 4 directions for occupied tiles. There is a helper function
 uses System.Linq.Find to query with x and y value of tile. When function ended, if foundTiles count is equal or more than
 3, then mark all tiles in the list as non-occupied and make that tiles pressable again.
+
+    Misc
+Slider range is 3-15. You can increase the range from slider UI if you want to try for more. I did it max 15 for usability.
