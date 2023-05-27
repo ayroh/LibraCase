@@ -1,6 +1,7 @@
 # LibraCase
  
-   GridManager
+     GridManager    
+     
 Takes input from slider when GenerateGrid button is pressed and creates grid according to current Canvas width and height.
 You can regenerate grid with clicking button again with different size. Sends all tiles to PuzzleManager as list when Grid created.
 
