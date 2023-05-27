@@ -42,7 +42,7 @@ public class GridManager : MonoBehaviour
 
         // Size uses 9/10 of screen. Canvas transform expands according to screen resolution.
         // So i use smallest value between height and width and use 9/10 of that value as grid size
-        float size = (canvasTransform.rect.width < canvasTransform.rect.height) ? (canvasTransform.rect.width * 9 / 10) : (canvasTransform.rect.height * 9 / 10);
+        float size = (canvasTransform.rect.width < canvasTransform.rect.height) ? (canvasTransform.rect.width * 7 / 10) : (canvasTransform.rect.height * 7 / 10);
 
         // New grid size
         gridTransform.sizeDelta = new Vector2(size, size);
