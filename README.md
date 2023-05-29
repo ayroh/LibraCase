@@ -16,4 +16,6 @@ uses System.Linq.Find to query with x and y value of tile. When function ended, 
 3, then mark all tiles in the list as non-occupied and make that tiles pressable again.
 
     Misc
-Slider range is 3-15. You can increase the range from slider UI if you want to try for more. I did it max 15 for usability.
+- Slider range is 3-15. You can increase the range from slider UI if you want to try for more. I did it max 15 for usability.
+- I placed slider at the bottom of the screen to create new grid on runtime for you to play game easily. I used Destroy/Instantiate
+on tiles which is wrong, normally I would use pooling for that kind of situation.
